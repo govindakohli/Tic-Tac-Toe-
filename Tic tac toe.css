@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background: rgb(49, 31, 90); */
+    background: #000;
+    background-image: url(black-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(232, 227, 227);
+    
+}
+.heading {
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    text-align: center;
+    font-size: 5rem;
+    border-bottom: 3px solid rgb(237, 233, 233);
+    height: 5.8rem;
+
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 27rem;
+    width: 27rem;
+    flex-wrap: wrap;
+    margin-top: 15%;
+}
+.box {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+    font-size: 4.5rem;
+    /* background: rgb(148, 148, 204); */
+    background: rgba(255, 255, 255, 0.27);
+    color: black;
+    cursor: pointer;
+    border: 2px solid white;
+    /* padding: 1rem; */
+}
+.box:hover {
+    border: 3px solid rgb(22, 242, 22);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 21rem; */
+    width: 31rem;
+    margin-left: 34%;
+    margin-right: 20%;
+}
+#reset-btn  , #new-btn {
+    height: 4rem;
+    width: 8rem;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .75rem;
+    font-size: 1rem;
+    background: black;
+    color:whitesmoke;
+    cursor: pointer;
+    border: 2px solid white;
+}
+#reset-btn:hover  , #new-btn:hover {
+    border: 3px solid white;
+    font-size: 1.1rem;
+
+}
+
+.msg-container {
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height:43.3rem;
+    width: 100%;
+    /* background: rgb(148, 148, 204); */
+    color: white ;
+    font-size: 5rem;
+    background-image: url(background\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hide {
+    display: none;
+}
+
+#winning_msg {
+    margin-top: 5rem;
+}
+
